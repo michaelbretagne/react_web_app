@@ -41,11 +41,11 @@ class Checkout extends Component {
   }
 }
 
-const mapPropsToState = state => {
+const mapStateToProps = state => {
   return {
     ings: state.burgerBuilder.ingredients,
     purchased: state.order.purchased,
   };
 };
 
-export default connect(mapPropsToState)(Checkout);
+export default connect(mapStateToProps)(Checkout);
