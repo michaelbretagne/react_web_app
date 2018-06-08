@@ -9,12 +9,13 @@ A **authentification token**, valid for one hour, is created and stored on fireb
 
 ### Libraries used in this project:
 
-* [react](https://reactjs.org/) to build the user interface.
-* [redux](https://redux.js.org/) to manage the application state.
-* [react-redux](https://github.com/reduxjs/react-redux) to connect redux to the react app.
-* [redux-thunk](https://github.com/reduxjs/redux-thunk), middleware to handle async actions.
-* [react-router-dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom) to handle routings in our app.
-* [axios](https://github.com/axios/axios) to make HTTP requests.
-* [Firebase](https://firebase.google.com/) is used for the backend of the application. It stores the data and it is also used to host the web app.
+- [react](https://reactjs.org/) to build the user interface.
+- [redux](https://redux.js.org/) to manage the application state.
+- [react-redux](https://github.com/reduxjs/react-redux) to connect redux to the react app.
+- [redux-thunk](https://github.com/reduxjs/redux-thunk), redux middleware to handle actions.
+- [react-router-dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom) to handle routings in our app.
+- [axios](https://github.com/axios/axios) to make HTTP requests.
+- [redux-saga](https://redux-saga.js.org/) redux middleware to handle side effects (asynchronous) actions.
+- [Firebase](https://firebase.google.com/) is used for the backend of the application. It stores the data and it is also used to host the web app.
 
 The web app can be seen live [here](https://react-app-burger-f5cbf.firebaseapp.com/).
